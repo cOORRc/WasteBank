@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="หน้าแรก" />
+        <item
+            android:id="@+id/nav_id"
+            android:icon="@drawable/account"
+            android:title="ข้อมูลของคุณ" />
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cafa"
+            android:icon="@drawable/store"
+            android:title="ร้านค้าที่ร่วมรายการ" />
+    </group>
+
+            <item
+                android:id="@+id/nav_out"
+                android:icon="@drawable/key"
+                android:title="ออกจากระบบ" />
+
+
+</menu>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".page_cen_Infor_stores"
+    tools:showIn="@layout/app_bar_page_cen__infor_stores">
+
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_yourlogo"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/yourlogo" />
+
+      <TextView
+          android:id="@+id/text_name_store"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20sp"
+          android:layout_marginTop="150sp"
+          android:fontFamily="@font/prompt_thin"
+          android:textSize="20sp"
+          android:text="@string/text_name_store"
+
+          android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/editT_name_store"
+        android:layout_width="230sp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="190sp"
+        android:layout_marginStart="80sp"
+        android:fontFamily="@font/prompt_thin"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/text_owner_store"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="250sp"
+        android:fontFamily="@font/prompt_thin"
+        android:text="@string/text_ownerneme_store"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+      <TextView
+        android:id="@+id/editT_owner_store"
+        android:layout_width="230sp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="290sp"
+        android:layout_marginStart="80sp"
+        android:ems="10"
+        android:fontFamily="@font/prompt_thin"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+      <TextView
+          android:id="@+id/text_call_store"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/prompt_thin"
+          android:text="@string/text_call_store"
+          android:layout_marginTop="360sp"
+          android:layout_marginStart="20sp"
+          android:textSize="20sp"
+          android:textStyle="bold" />
+
+      <TextView
+        android:id="@+id/editT_call_store"
+        android:layout_width="230sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400sp"
+        android:layout_marginStart="80sp"
+        android:ems="10"
+        android:fontFamily="@font/prompt_thin"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+      <TextView
+          android:id="@+id/text_add_store"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="460sp"
+          android:layout_marginStart="20sp"
+          android:fontFamily="@font/prompt_thin"
+          android:text="@string/text_add_store"
+          android:textSize="20sp"
+          android:textStyle="bold" />
+
+      <TextView
+        android:id="@+id/editT_add_store"
+        android:layout_width="230sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500sp"
+        android:layout_marginStart="80sp"
+        android:ems="8"
+        android:fontFamily="@font/prompt_thin"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:textSize="18sp" />
+
+
+
+    </RelativeLayout>
+</ScrollView>

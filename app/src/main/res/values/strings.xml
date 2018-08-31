@@ -1,0 +1,103 @@
+<resources>
+
+    <string name="facebook_app_id">556533788112922</string>
+    <string name="fb_login_protocol_scheme">fb556533788112922</string>
+
+
+    <string-array name="s">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="app_name">24hrs WasteBank</string>
+
+    <!--nemMember-->
+    <string name="topic_newmember">สมัครสมาชิก</string>
+
+
+    <string name="text_name_newmember">*ชื่อ - สกุล : </string>
+    <string name="text_mail_newmember">*E-maill : </string>
+    <string name="text_pass_newmember">*รหัสผ่าน : </string>
+    <string name="text_depart_newmember">*หน่วยงาน :</string>
+
+    <string name="box_name_newmember"></string>
+    <string name="box_mail_newmember"></string>
+    <string name="box_pass_newmember"></string>
+    <string name="box_depart_newmember"></string>
+
+    <string name="submit_newmember">ยืนยันข้อมูล</string>
+    <string name="todo">TODO</string>
+
+    <!--activity main-->
+    <string name="topic_main">เข้าสู่ระบบ</string>
+    <string name="boxname_main">ชื่อผู้ใช้งาน</string>
+    <string name="boxpass_main"></string>
+    <string name="submit_main">เข้าสู่ระบบ</string>
+
+    <!--choice login-->
+    <string name="login_choiceLogin">เข้าสู่ระบบ</string>
+    <string name="new_register_choiceLogin">สมัครสมาชิก</string>
+
+
+    <!--page regi choice login-->
+    <string name="topic_regiChoiceLogin">เข้าสู่ระบบ</string>
+    <string name="boxname_regiChoiceLogin"></string>
+    <string name="pass_regiChoiceLogin"></string>
+    <string name="regiter_login">เข้าสู่ระบบ</string>
+    <string name="facebookbutt"></string>
+    <string name="title_activity_page_center">page_center</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_page_cen_infor">page_cenInfor</string>
+
+    <!--center information-->
+    <string name="topic_centerInfor">ข้อมูลของคุณ</string>
+    <string name="text_name_centerInfor">ชื่อผู้ใช้งาน</string>
+    <string name="box_name_centerInfor"></string>
+    <string name="text_mail_centerInfor">E-mail</string>
+    <string name="box_mail_centerInfor"></string>
+    <string name="text_depart_centerInfor">หน่วยงาน</string>
+    <string name="box_depart_centerInfor"></string>
+    <string name="text_day_centerInfor">วันที่ร่วมกิจกรรม</string>
+    <string name="box_day_centerInfor"></string>
+    <string name="title_activity_statis">statis</string>
+    <string name="title_activity_page_statis">page_statis</string>
+
+    <!--ststistic-->
+    <string name="title_sta">สถิติ</string>
+    <string name="topic_statis">สถิติ</string>
+    <string name="title_activity_page_cen_stores">page_cen_stores</string>
+    <string name="title_activity_page_cen__infor_stores">page_cen_InforStores</string>
+    <string name="title_activity_page_cen_logout">page_cen_logout</string>
+
+    <string name="title_store">ร้านค้าที่ร่วมรายการ</string>
+
+    <string name="title_infor">ข้อมูลของคุณ</string>
+
+    <!--information stores-->
+    <string name="title_inforStores">ข้อมูลร้านค้า</string>
+    <string name="yourlogo"></string>
+    <string name="text_name_store">ชื่อร้าน</string>
+    <string name="text_ownerneme_store">เจ้าของร้าน</string>
+    <string name="text_call_store">เบอร์</string>
+    <string name="text_add_store">ที่อยู่</string>
+    <string name="box_name_store"></string>
+    <string name="box_ownerneme_store"></string>
+    <string name="box_call_store"></string>
+    <string name="box_add_store"></string>
+    <string name="title_activity_page_cen_savepic">page_cen_savepic</string>
+    <string name="title_activity_page_cen_scanner">page_cen_scanner</string>
+
+    <!--save picturn-->
+    <string name="text_line1">ถ่ายภาพไหม?? หรือบันทึกข้อมูล</string>
+    <string name="text_line2">ประหยัดเงิน</string>
+    <string name="text_money"></string>
+    <string name="text_line3">บาท</string>
+    <string name="imageV"></string>
+    <string name="take_pic">บันทึกถ่าย</string>
+    <string name="save_data">บันทึกข้อมูล</string>
+
+</resources>

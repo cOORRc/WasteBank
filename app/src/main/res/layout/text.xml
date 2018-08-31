@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/pgb"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textV_sta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/prompt_thin"
+            android:text="@string/title_sta"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            app:cardBackgroundColor="#E8F7F1"
+            app:cardCornerRadius="10sp"
+            app:layout_constraintTop_toBottomOf="@+id/text_sta">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/linebott"
+                    android:layout_width="300sp"
+                    android:layout_height="5sp"
+                    android:layout_marginStart="35sp"
+                    android:layout_marginTop="50sp"
+                    android:background="#70be44" />
+
+                <ImageView
+                    android:id="@+id/bott"
+                    android:layout_width="90sp"
+                    android:layout_height="90sp"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/bott" />
+
+                <TextView
+                android:id="@+id/textV_bott"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="25sp"
+                android:layout_toEndOf="@+id/bott"
+                android:text="TextView" />
+                <TextView
+                    android:id="@+id/textV_bott2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/linebott"
+                    android:layout_marginTop="10sp"
+                    android:layout_toLeftOf="@id/textV_bott3"
+                    android:layout_marginLeft="280sp"
+                    android:text="db" />
+                <TextView
+                    android:id="@+id/textV_bott3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/linebott"
+                    android:layout_marginEnd="20sp"
+                    android:layout_marginTop="10sp"
+                    android:text="กรัม" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            app:cardBackgroundColor="#F6E8F7"
+            app:cardCornerRadius="10sp"
+            app:layout_constraintTop_toBottomOf="@+id/text_sta">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/linecup"
+                    android:layout_width="300sp"
+                    android:layout_height="5sp"
+                    android:layout_marginStart="35sp"
+                    android:layout_marginTop="50sp"
+                    android:background="#f97ad4" />
+
+                <ImageView
+                    android:id="@+id/cup"
+                    android:layout_width="90sp"
+                    android:layout_height="90sp"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/cup" />
+
+                <TextView
+                    android:id="@+id/textV_cup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginTop="25sp"
+                    android:layout_toEndOf="@+id/cup"
+                    android:text="TextView" />
+                <TextView
+                    android:id="@+id/textV_cup2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/linecup"
+                    android:layout_marginTop="10sp"
+                    android:layout_toLeftOf="@id/textV_cup3"
+                    android:layout_marginLeft="280sp"
+                    android:text="db" />
+                <TextView
+                    android:id="@+id/textV_cup3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/linecup"
+                    android:layout_marginEnd="20sp"
+                    android:layout_marginTop="10sp"
+                    android:text="กรัม" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            app:cardBackgroundColor="#F7ECE8"
+            app:cardCornerRadius="10sp"
+            app:layout_constraintTop_toBottomOf="@+id/text_sta">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/linemoney"
+                    android:layout_width="300sp"
+                    android:layout_height="5sp"
+                    android:layout_marginStart="35sp"
+                    android:layout_marginTop="50sp"
+                    android:background="#f58c39" />
+
+                <ImageView
+                    android:id="@+id/money"
+                    android:layout_width="90sp"
+                    android:layout_height="90sp"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/money" />
+
+                <TextView
+                    android:id="@+id/textV_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginTop="25sp"
+                    android:layout_toEndOf="@+id/money"
+                    android:text="TextView" />
+                <TextView
+                    android:id="@+id/textV_money2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/linemoney"
+                    android:layout_marginTop="10sp"
+                    android:layout_toLeftOf="@id/textV_money3"
+                    android:layout_marginLeft="280sp"
+                    android:text="db" />
+                <TextView
+                    android:id="@+id/textV_money3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/linemoney"
+                    android:layout_marginEnd="20sp"
+                    android:layout_marginTop="10sp"
+                    android:text="กรัม" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

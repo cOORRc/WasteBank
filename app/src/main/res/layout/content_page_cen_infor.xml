@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafafa"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".page_cen_Infor"
+    tools:showIn="@layout/app_bar_page_cen_infor">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imgV-user_cenInfor"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_above="@+id/textV-name_cenInfor"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-170dp"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:id="@+id/textV-name_cenInfor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="200dp"
+            android:fontFamily="@font/prompt_thin"
+            android:text="@string/text_name_centerInfor"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textV_mail_cenInfor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="300dp"
+            android:fontFamily="@font/prompt_thin"
+            android:text="@string/text_mail_centerInfor"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textV-depart_cenInfor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="400dp"
+            android:fontFamily="@font/prompt_thin"
+            android:text="@string/text_depart_centerInfor"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textV-date_cenInfor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="500dp"
+            android:fontFamily="@font/prompt_thin"
+            android:text="@string/text_day_centerInfor"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Text_namebox_cenInfor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="230dp"
+            android:ems="10"
+            android:fontFamily="@font/prompt_thin"
+            android:inputType="textPersonName"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_mail_cenInfor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="330dp"
+            android:ems="10"
+            android:fontFamily="@font/prompt_thin"
+            android:inputType="textPersonName"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_depart_cenInfor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="430dp"
+            android:ems="10"
+            android:fontFamily="@font/prompt_thin"
+            android:inputType="textEmailAddress"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_dte_cenInfor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="530dp"
+            android:ems="10"
+            android:fontFamily="@font/prompt_thin"
+            android:inputType="date"
+            android:text="@string/box_day_centerInfor"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chayapa.app_myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- MainActivity -->
+        <activity android:name=".MainActivity" />
+
+        <!-- into -->
+        <activity android:name=".into"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+
+
+
+
+        <!-- choice_login -->
+        <activity android:name=".choice_login"/>
+
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+
+        <!-- page_regiLogin -->
+        <activity android:name=".page_regiLogin" />
+
+        <!-- page_regi_choiceLogin -->
+        <activity android:name=".page_regi_choiceLogin" />
+
+
+        <!-- page_center -->
+        <activity
+            android:name=".page_center"
+            android:label="@string/title_activity_page_center"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <!-- page_cen_Information -->
+        <activity
+            android:name=".page_cen_Infor"
+            android:label="@string/title_activity_page_cen_infor"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- page_cen_statistic -->
+
+        <!-- page_cen_stores -->
+        <activity
+            android:name=".page_cen_stores"
+            android:label="@string/title_activity_page_cen_stores"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- page_cen_Informatiom stores -->
+        <activity
+            android:name=".page_cen_Infor_stores"
+            android:label="@string/title_activity_page_cen__infor_stores"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".page_cen_savepic"
+            android:label="@string/title_activity_page_cen_savepic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".page_cen_scanner"
+            android:label="@string/title_activity_page_cen_scanner"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+    </application>
+
+</manifest>
